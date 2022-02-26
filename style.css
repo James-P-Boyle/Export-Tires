@@ -144,3 +144,15 @@ footer {
   align-items: center;
   color: white;
 }
+
+/* CONTACT SECTION */
+#contact {
+  height: 60vh;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+}
+.location {
+  border: 1px solid black;
+  height: 60%;
+}
