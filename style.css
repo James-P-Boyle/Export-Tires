@@ -135,3 +135,12 @@ nav ul {
   height: 30%;
   width: 30%;
 }
+
+footer {
+  height: 3rem;
+  background-color: rgb(73, 70, 70);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
