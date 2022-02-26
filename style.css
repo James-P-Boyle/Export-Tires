@@ -3,3 +3,90 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-size: 16px;
+  max-width: 100%;
+}
+h1 {
+  font-size: 1.7rem;
+  margin-top: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+hr {
+  width: 60%;
+  margin: 0.5rem auto;
+}
+
+/* NAV */
+nav {
+  display: inline-flex;
+  min-width: 100%;
+  justify-content: space-between;
+  background-color: rgb(34, 33, 33);
+}
+nav ul {
+  list-style: none;
+  display: inline-flex;
+  gap: 1rem;
+  margin-left: auto;
+  align-items: center;
+  color: aliceblue;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+/* HERO */
+#hero {
+  height: 95vh;
+  position: relative;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#hero img {
+  max-width: 80%;
+  position: absolute;
+  right: -60px;
+  top: 4rem;
+  z-index: -1;
+}
+
+.flex2 {
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  max-width: 95%;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  text-align: center;
+}
+.buttons {
+  display: inline-flex;
+}
+
+.cta {
+  background-color: aqua;
+  padding: 1rem;
+  width: 60%;
+  margin: 0 auto;
+
+  border-radius: 50px;
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.continue-button {
+  padding: 1rem;
+  max-width: 20%;
+  margin: 1rem auto;
+}
+
+#about-us img {
+  width: 50%;
+  height: 50%;
+}
