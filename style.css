@@ -49,7 +49,7 @@ li:hover {
 /* HERO */
 #hero {
   display: grid;
-  grid-template: repeat(7, 1fr) / repeat(6, 1fr);
+  grid-template: repeat(5, 1fr) / repeat(6, 1fr);
   margin: auto;
   position: relative;
   overflow-x: hidden;
@@ -76,7 +76,7 @@ li:hover {
 }
 
 #hero .cta {
-  grid-area: -4 / -7 / -3 / -1;
+  grid-area: 5 / 1 / 7 / 7;
 }
 
 .cta {
@@ -116,18 +116,18 @@ li:hover {
 #about-us {
   display: flex;
   flex-direction: column;
-
-  width: 98%;
   background-color: white;
-  margin: 0 auto;
+  margin: 2rem auto;
+  height: 100vh;
 }
 #about-us img {
-  border-radius: 10px;
+  height: 60%;
 }
 #about-us p {
-  padding: 3rem 1rem;
+  padding: 2rem 1rem;
   font-size: 1.2rem;
   text-align: center;
+  height: 30%;
 }
 
 /* CARD SECTION */
