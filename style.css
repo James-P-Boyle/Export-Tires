@@ -40,41 +40,31 @@ nav ul {
 }
 /* HERO */
 #hero {
-  height: 95vh;
+  display: grid;
+  grid-template: repeat(6, 1fr) / repeat(6, 1fr);
+
+  margin: auto;
   position: relative;
   overflow-x: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
-
 #hero img {
-  max-width: 80%;
-  position: absolute;
-  right: -60px;
-  top: 4rem;
   z-index: -1;
+  grid-area: 1/ 2 / 7 / 5;
+}
+#hero h1 {
+  grid-area: 1 / 1 / 2 / 8;
 }
 
-.flex2 {
-  display: flex;
-  flex-direction: column;
-  height: 40%;
-  max-width: 95%;
-  justify-content: space-evenly;
-  margin: 0 auto;
-  text-align: center;
-}
-.buttons {
-  display: inline-flex;
+#hero p {
+  grid-area: 2 / 2 / 2 / 5;
 }
 
 .cta {
   background-color: aqua;
   padding: 1rem;
-  width: 60%;
+  display: block;
   margin: 0 auto;
-
+  width: 70%;
   border-radius: 50px;
   color: aliceblue;
   font-weight: bolder;
@@ -95,6 +85,7 @@ nav ul {
   padding: 1rem;
   max-width: 20%;
   margin: 1rem auto;
+  display: block;
 }
 
 /* ABOUT US */
